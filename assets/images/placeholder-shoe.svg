@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#141418"/>
+  <circle cx="400" cy="300" r="220" fill="#1d1d24"/>
+  <path d="M180 370 C240 370, 290 250, 350 230 C390 280, 460 310, 610 325 C640 330, 650 365, 620 390 L180 390 Z" fill="#FF5500"/>
+  <rect x="170" y="388" width="465" height="26" rx="12" fill="#FFFFFF"/>
+  <text x="400" y="485" font-family="sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="4">SPORTKICK PRO GEAR</text>
+</svg>
