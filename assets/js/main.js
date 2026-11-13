@@ -345,16 +345,32 @@
     }
 
     /* ----------------------------------------------------------------------
-       5. Newsletter Subscription Handler
+       5. Newsletter Subscription & Search Toggle Handlers
        ---------------------------------------------------------------------- */
-    const newsletterForm = document.getElementById('newsletterForm');
-    if (newsletterForm) {
-        newsletterForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            const input = newsletterForm.querySelector('input[type="email"]');
-            if (input && input.value.trim()) {
-                showToast('Welcome to The Locker Club! Use code KICK10 for 10% off.');
-                input.value = '';
+    ['newsletterForm', 'homeNewsletterForm'].forEach((formId) => {
+        const nlForm = document.getElementById(formId);
+        if (nlForm) {
+            nlForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const input = nlForm.querySelector('input[type="email"]');
+                if (input && input.value.trim()) {
+                    showToast('Welcome to The Locker Club! Use code KICK10 for 10% off.');
+                    input.value = '';
+                }
+            });
+        }
+    });
+
+    const searchToggleBtn = document.getElementById('searchToggleBtn');
+    if (searchToggleBtn) {
+        searchToggleBtn.addEventListener('click', () => {
+            const desktopInput = document.getElementById('headerSearchInput');
+            if (desktopInput && window.innerWidth > 900) {
+                desktopInput.focus();
+            } else if (mobileDrawer) {
+                mobileDrawer.classList.add('is-open');
+                const mobileInput = mobileDrawer.querySelector('input[type="search"]');
+                if (mobileInput) mobileInput.focus();
             }
         });
     }

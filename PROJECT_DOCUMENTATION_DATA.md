@@ -7,7 +7,7 @@
 ## 1. Project Title and Subtitle
 - **Project Title:** SportKick
 - **Project Subtitle:** A Dedicated Full-Stack Sportswear and Performance Sports Footwear E-Commerce Platform
-- **Hero Brand Tagline:** *"GEAR UP. SHOW UP. NEVER STOP."*
+- **Hero Brand Tagline:** *"PUSH BEYOND LIMITS. Performance starts with what you wear."*
 
 ---
 

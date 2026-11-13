@@ -1,6 +1,6 @@
 # SportKick — Pro Sportswear & Performance Footwear E-Commerce Platform
 
-> **"GEAR UP. SHOW UP. NEVER STOP."**  
+> **"PUSH BEYOND LIMITS. Performance starts with what you wear."**  
 > A full-stack sportswear and athletic footwear e-commerce web application built with **HTML5, Custom CSS3, Vanilla JavaScript (ES6+), PHP 8.5, and MySQL**.
 
 ---
@@ -176,9 +176,10 @@ All screenshots were captured directly from the live running application and are
 
 | Screenshot | File Path | Description |
 | :--- | :--- | :--- |
-| **01. Home Hero & Navbar** | [`01_home_page_hero.png`](file:///Users/mukund/Desktop/nithilan/documentation/screenshots/01_home_page_hero.png) | Sticky navbar, 8-sport ribbon, hero banner (*"GEAR UP. SHOW UP. NEVER STOP."*), and official brand strip |
-| **02. Categories & Trending** | [`02_home_categories_and_trending.png`](file:///Users/mukund/Desktop/nithilan/documentation/screenshots/02_home_categories_and_trending.png) | 8 Featured Sports Categories grid and Trending Athlete Picks cards in `₹` INR |
-| **03. Deals & New Arrivals** | [`03_home_exclusive_deals_and_new_arrivals.png`](file:///Users/mukund/Desktop/nithilan/documentation/screenshots/03_home_exclusive_deals_and_new_arrivals.png) | Exclusive Locker Room Deals banner (`KICK10`, `ATHLETE20`), deal products, and New Season Arrivals |
+| **01. Home Hero & Navbar** | [`01_home_page_hero.png`](file:///Users/mukund/Desktop/nithilan/documentation/screenshots/01_home_page_hero.png) | Sticky navbar, 8-sport ribbon, hero banner (*"PUSH BEYOND LIMITS."* / *"Performance starts with what you wear."*), and featured brand tiles |
+| **02. Categories & Trending** | [`02_home_categories_and_trending.png`](file:///Users/mukund/Desktop/nithilan/documentation/screenshots/02_home_categories_and_trending.png) | 8 Shop by Sport category cards and Trending Products in `₹` INR |
+| **03. Campaign & New Arrivals** | [`03_home_exclusive_deals_and_new_arrivals.png`](file:///Users/mukund/Desktop/nithilan/documentation/screenshots/03_home_exclusive_deals_and_new_arrivals.png) | Promotional Campaign split banner (`KICK10`, `ATHLETE20`) and New Arrivals |
+| **15. Best Sellers, About & Newsletter** | [`15_home_bestsellers_about_newsletter.png`](file:///Users/mukund/Desktop/nithilan/documentation/screenshots/15_home_bestsellers_about_newsletter.png) | Best Sellers grid, About SportKick section, and Locker Club Newsletter banner |
 | **04. Shop Catalog** | [`04_shop_all_products.png`](file:///Users/mukund/Desktop/nithilan/documentation/screenshots/04_shop_all_products.png) | Full product catalog (`shop.php`) with sticky multi-parameter filter sidebar |
 | **05. Search & Filters** | [`05_search_and_filter_results.png`](file:///Users/mukund/Desktop/nithilan/documentation/screenshots/05_search_and_filter_results.png) | Filtered view by Sport Category (*Running*), Price Range (`₹4,000–₹20,000`), and Sort Order |
 | **06. Product Details** | [`06_product_details_page.png`](file:///Users/mukund/Desktop/nithilan/documentation/screenshots/06_product_details_page.png) | Multi-angle image gallery, `₹15,999` pricing, size/colorway pills, quantity stepper, and technical specs table |
