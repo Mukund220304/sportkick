@@ -7,11 +7,12 @@
 require_once __DIR__ . '/../config/database.php';
 
 /**
- * Format currency value cleanly in USD ($).
+ * Format currency value cleanly in Indian Rupees (₹).
  */
 function formatPrice(float $amount): string
 {
-    return '$' . number_format($amount, 2);
+    $decimals = (abs($amount - round($amount)) < 0.01) ? 0 : 2;
+    return '₹' . number_format($amount, $decimals);
 }
 
 /**
@@ -234,12 +235,12 @@ function getCartDetails(PDO $pdo): array
     $promoCode = $_SESSION['promo_code'] ?? '';
     if ($promoCode === 'KICK10' && $subtotal > 0) {
         $promoDiscount = round($subtotal * 0.10, 2);
-    } elseif ($promoCode === 'ATHLETE20' && $subtotal >= 150) {
+    } elseif ($promoCode === 'ATHLETE20' && $subtotal >= 10000) {
         $promoDiscount = round($subtotal * 0.20, 2);
     }
 
-    // Free shipping on orders over $120
-    $shippingFee = ($subtotal === 0.0 || ($subtotal - $promoDiscount) >= 120.0) ? 0.00 : 9.99;
+    // Free shipping on orders over ₹4,999
+    $shippingFee = ($subtotal === 0.0 || ($subtotal - $promoDiscount) >= 4999.0) ? 0.00 : 199.00;
     $totalAmount = round(max(0, $subtotal - $promoDiscount) + $shippingFee, 2);
 
     return [
@@ -444,3 +445,4 @@ function queryProducts(PDO $pdo, array $filters = []): array
     $stmt->execute($params);
     return $stmt->fetchAll();
 }
+

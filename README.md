@@ -119,7 +119,7 @@ Defined in [`database/sportkick.sql`](file:///Users/mukund/Desktop/nithilan/data
   *(A 1-click **"Auto-Fill Demo"** button is available directly on `login.php` for quick evaluation)*
 - **Active Promo Codes (Test in Cart / Checkout):**
   - `KICK10` — **10% OFF** any order
-  - `ATHLETE20` — **20% OFF** orders of \$150.00 or more
+  - `ATHLETE20` — **20% OFF** orders of ₹10,000 or more
 
 ---
 
@@ -133,14 +133,15 @@ php tests/verify_all.php
 | :- | :--- | :---: | :--- |
 | 1 | **MySQL Database Schema (8 Tables)** | **PASS** | Verified `users`, `categories`, `products`, `cart`, `cart_items`, `wishlist`, `orders`, `order_items` |
 | 2 | **8 Mandatory Sports Categories** | **PASS** | Verified Running, Basketball, Football, Cricket, Tennis, Badminton, Gym & Training, Hiking |
-| 3 | **Products Populated in MySQL** | **PASS** | 24 realistic footwear & apparel products loaded from MySQL |
+| 3 | **Products Populated in MySQL** | **PASS** | 24 realistic footwear & apparel products loaded from MySQL (in ₹ INR) |
 | 4 | **Search by Product Name** | **PASS** | Query `"Alphafly"` returns *Nike Air Zoom Alphafly Next% 3 Proto* |
 | 5 | **Filter by Brand** | **PASS** | Brand `"Adidas"` returns 5 matching Adidas products |
 | 6 | **Filter by Sport Category** | **PASS** | Category `"badminton"` returns 3 Yonex & Asics court products |
-| 7 | **Filter by Price Range** | **PASS** | Range `\$100 - \$160` returns 10 products strictly within bounds |
+| 7 | **Filter by Price Range** | **PASS** | Range `₹8,000 - ₹14,000` returns 10 products strictly within bounds |
 | 8 | **Filter by Size** | **PASS** | Size `"UK 9"` matches 16 footwear products via `FIND_IN_SET` |
 | 9 | **Filter by Color** | **PASS** | Color `"Orange"` matches 13 products |
 | 10 | **User Registration & Session Auth** | **PASS** | Bcrypt password hash created, verified, and session established |
 | 11 | **Shopping Cart & Promo Engine** | **PASS** | Added qty 2, applied `KICK10` (10% off), verified subtotal & total calculation |
 | 12 | **Wishlist Operations** | **PASS** | Toggle save/remove and fetch verified against `wishlist` table |
 | 13 | **Checkout & Order Persistence** | **PASS** | Transactional `orders` + `order_items` creation and stock update verified |
+

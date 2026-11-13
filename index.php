@@ -74,7 +74,7 @@ $popularBrands = ['Nike', 'Adidas', 'Puma', 'Asics', 'Under Armour', 'Yonex', 'S
                         <div class="hero-floating-tag__sub">FEATURED DROP &bull; RUNNING</div>
                         <div class="hero-floating-tag__title">Nike Air Zoom Alphafly Next% 3</div>
                     </div>
-                    <a href="product.php?id=1" class="btn btn--primary btn--sm">$189.99 &rarr;</a>
+                    <a href="product.php?id=1" class="btn btn--primary btn--sm">₹15,999 &rarr;</a>
                 </div>
             </div>
         </div>
@@ -165,7 +165,7 @@ $popularBrands = ['Nike', 'Adidas', 'Puma', 'Asics', 'Under Armour', 'Yonex', 'S
                     <div class="promo-coupon">
                         <span>CODE:</span>
                         <strong>ATHLETE20</strong>
-                        <span style="font-size:0.78rem;color:#a1a1aa;">Extra 20% Off Orders $150+</span>
+                        <span style="font-size:0.78rem;color:#a1a1aa;">Extra 20% Off Orders ₹10,000+</span>
                     </div>
                 </div>
             </div>
@@ -202,3 +202,4 @@ $popularBrands = ['Nike', 'Adidas', 'Puma', 'Asics', 'Under Armour', 'Yonex', 'S
 </section>
 
 <?php require_once __DIR__ . '/includes/footer.php'; ?>
+

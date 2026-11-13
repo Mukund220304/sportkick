@@ -188,11 +188,11 @@ if ($action === 'promo') {
 
     if ($code === 'ATHLETE20') {
         $currentCart = getCartDetails($pdo);
-        if ($currentCart['subtotal'] < 150) {
+        if ($currentCart['subtotal'] < 10000) {
             http_response_code(400);
             echo json_encode([
                 'success' => false,
-                'message' => 'ATHLETE20 requires a minimum subtotal of $150.00.',
+                'message' => 'ATHLETE20 requires a minimum subtotal of ₹10,000.',
                 'cart'    => $currentCart,
             ]);
             exit;
@@ -218,3 +218,4 @@ if ($action === 'promo') {
 
 http_response_code(400);
 echo json_encode(['success' => false, 'message' => 'Unsupported cart action.']);
+

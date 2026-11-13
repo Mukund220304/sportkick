@@ -115,18 +115,18 @@ require_once __DIR__ . '/includes/header.php';
                     </select>
                 </div>
 
-                <!-- 4. Price Range ($ Min - $ Max) -->
+                <!-- 4. Price Range (₹ Min - ₹ Max) -->
                 <div class="filter-group">
-                    <span class="filter-group__label">Price Range ($)</span>
+                    <span class="filter-group__label">Price Range (₹)</span>
                     <div class="filter-price-row">
                         <input
                             type="number"
                             name="min_price"
                             value="<?= e((string)$filters['min_price']) ?>"
-                            placeholder="Min ($0)"
+                            placeholder="Min (₹0)"
                             min="0"
-                            max="500"
-                            step="5"
+                            max="30000"
+                            step="500"
                             class="filter-input"
                             aria-label="Minimum Price"
                         >
@@ -134,10 +134,10 @@ require_once __DIR__ . '/includes/header.php';
                             type="number"
                             name="max_price"
                             value="<?= e((string)$filters['max_price']) ?>"
-                            placeholder="Max ($300)"
+                            placeholder="Max (₹25,000)"
                             min="0"
-                            max="500"
-                            step="5"
+                            max="30000"
+                            step="500"
                             class="filter-input"
                             aria-label="Maximum Price"
                         >
@@ -246,3 +246,4 @@ require_once __DIR__ . '/includes/header.php';
 </div>
 
 <?php require_once __DIR__ . '/includes/footer.php'; ?>
+

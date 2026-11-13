@@ -221,3 +221,4 @@ if ($action === 'change_password') {
 
 http_response_code(400);
 echo json_encode(['success' => false, 'message' => 'Invalid authentication action.']);
+

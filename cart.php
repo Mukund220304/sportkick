@@ -15,7 +15,7 @@ $cartItems = $cart['items'];
     <div class="container">
         <span class="section-eyebrow">Your Locker Bag</span>
         <h1 class="page-hero-compact__title">Shopping Cart (<?= (int)$cart['item_count'] ?>)</h1>
-        <p class="page-hero-compact__sub">Free express shipping on all orders over $120.00.</p>
+        <p class="page-hero-compact__sub">Free express shipping on all orders over ₹4,999.</p>
     </div>
 </section>
 
@@ -219,3 +219,4 @@ document.addEventListener('DOMContentLoaded', function () {
 </script>
 
 <?php require_once __DIR__ . '/includes/footer.php'; ?>
+

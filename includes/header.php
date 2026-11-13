@@ -31,10 +31,10 @@ $pageTitle = isset($pageTitle) ? $pageTitle . ' | SportKick' : 'SportKick — Pr
         <div class="container announcement-bar__inner">
             <div class="announcement-bar__left">
                 <span class="pulse-dot"></span>
-                <span>PRO SEASON DROP LIVE — FREE EXPRESS DELIVERY ON ORDERS OVER $120</span>
+                <span>PRO SEASON DROP LIVE — FREE EXPRESS DELIVERY ON ORDERS OVER ₹4,999</span>
             </div>
             <div class="announcement-bar__right">
-                <span>PROMO CODE: <strong>KICK10</strong> (10% OFF) &bull; <strong>ATHLETE20</strong> (20% OFF $150+)</span>
+                <span>PROMO CODE: <strong>KICK10</strong> (10% OFF) &bull; <strong>ATHLETE20</strong> (20% OFF ₹10,000+)</span>
                 <a href="shop.php?badge=deal" class="announcement-bar__cta">Shop Deals &rarr;</a>
             </div>
         </div>
@@ -173,3 +173,4 @@ $pageTitle = isset($pageTitle) ? $pageTitle . ' | SportKick' : 'SportKick — Pr
 
     <!-- Main Content Wrapper -->
     <main class="site-main">
+

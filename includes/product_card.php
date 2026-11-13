@@ -117,3 +117,4 @@ $discount = (int)($product['discount_percent'] ?? 0);
         </div>
     </div>
 </article>
+

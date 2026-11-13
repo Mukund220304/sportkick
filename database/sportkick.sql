@@ -204,7 +204,7 @@ INSERT INTO products (
 ) VALUES
 -- 1. RUNNING
 (1, 1, 'Nike Air Zoom Alphafly Next% 3 Proto', 'nike-air-zoom-alphafly-next-3', 'Nike', 'SK-RUN-001', 'Footwear',
- 189.99, 229.99, 17, 4.90, 342,
+ 15999.00, 19499.00, 18, 4.90, 342,
  'UK 7,UK 8,UK 9,UK 10,UK 11', 'Orange,White,Black', 'Orange',
  'Fine-tuned for marathon speed, the Air Zoom Alphafly Next% 3 pushes you beyond what you thought possible. Dual Air Zoom units in the forefoot combine with full-length ZoomX foam and a full-length carbon fiber Flyplate to deliver unprecedented energy return on road surfaces.',
  '{"Upper":"Atomknit 3.0 Breathable Mesh","Midsole":"Full-Length ZoomX Foam + Carbon Flyplate","Outsole":"Fast-Shot High-Abrasion Rubber","Heel-to-Toe Drop":"8 mm","Weight":"218g (Men UK 9)","Surface":"Road / Marathon Racing"}',
@@ -213,7 +213,7 @@ INSERT INTO products (
  1, 1, 1, 32),
 
 (2, 1, 'Adidas Adizero Boston 12 Carbon', 'adidas-adizero-boston-12-carbon', 'Adidas', 'SK-RUN-002', 'Footwear',
- 139.99, 169.99, 18, 4.75, 218,
+ 11499.00, 13999.00, 18, 4.75, 218,
  'UK 6,UK 7,UK 8,UK 9,UK 10,UK 11', 'Black,White,Blue', 'Black',
  'Built for tempo runs and race-day preparation, the Adizero Boston 12 merges ultra-light Lightstrike Pro cushioning with glass-fiber ENERGYRODS 2.0 that limit energy loss underfoot. Finished with a Continental rubber outsole for relentless wet and dry grip.',
  '{"Upper":"Engineered Recycled Mesh","Midsole":"Lightstrike Pro + ENERGYRODS 2.0","Outsole":"Continental Grip Rubber","Heel-to-Toe Drop":"7 mm","Weight":"267g (UK 9)","Surface":"Road / Tempo Training"}',
@@ -222,7 +222,7 @@ INSERT INTO products (
  1, 0, 0, 45),
 
 (3, 1, 'Puma Deviate NITRO Elite Singlet & Aero Split Set', 'puma-deviate-nitro-elite-singlet', 'Puma', 'SK-RUN-003', 'Apparel',
- 64.99, 84.99, 24, 4.65, 114,
+ 4999.00, 6599.00, 24, 4.65, 114,
  'S,M,L,XL', 'Black,Orange', 'Black',
  'Ultra-featherweight race day running singlet paired with laser-perforated 3-inch split shorts. Constructed with dryCELL moisture-wicking micro-knit and bonded chafe-free seams for high-humidity distance running.',
  '{"Fabric":"88% Recycled Polyester, 12% Elastane","Technology":"Puma dryCELL + Laser Vent Zones","Fit":"Athletic Aero Race Fit","Reflectivity":"360-Degree Night Run Accents","Care":"Machine Wash Cold"}',
@@ -232,7 +232,7 @@ INSERT INTO products (
 
 -- 2. BASKETBALL
 (4, 2, 'Nike LeBron XXI Electric Court', 'nike-lebron-xxi-electric-court', 'Nike', 'SK-BB-001', 'Footwear',
- 169.99, 209.99, 19, 4.85, 289,
+ 14499.00, 17999.00, 19, 4.85, 289,
  'UK 8,UK 9,UK 10,UK 11,UK 12', 'Red,Black,White', 'Red',
  'Designed for explosive open-floor attacks and rim-rattling ascents, the LeBron XXI features a 360-degree zonal cabling system wrapped in a vented dimensional shell, paired with a bottom-loaded Zoom Turbo unit and 13mm heel Zoom Air bag.',
  '{"Upper":"360-Degree Zonal Cable Containment Mesh","Midsole":"Cushlon 2.0 + Forefoot Zoom Turbo","Outsole":"Multi-Directional Herringbone Rubber","Collar":"Low-Cut Padded Achilles Lock","Court Type":"Indoor Hardwood & Outdoor Tartan"}',
@@ -241,7 +241,7 @@ INSERT INTO products (
  1, 1, 0, 28),
 
 (5, 2, 'Puma All-Pro NITRO Court Venom', 'puma-all-pro-nitro-court-venom', 'Puma', 'SK-BB-002', 'Footwear',
- 119.99, 149.99, 20, 4.70, 164,
+ 9999.00, 12499.00, 20, 4.70, 164,
  'UK 7,UK 8,UK 9,UK 10,UK 11', 'White,Orange,Black', 'White',
  'Combining nitrogen-injected NITRO SQD foam with a targeted cord lock-down lacing structure, the All-Pro NITRO delivers soft inner-core impact protection and a firm outer rim for lethal step-back crossovers.',
  '{"Upper":"Engineered Multi-Zone Knit","Midsole":"Dual-Density NITRO SQD Foam","Outsole":"High-Abrasion Sticky Rubber","Support":"TPU Heel Counter","Court Type":"Indoor / Pro Court"}',
@@ -250,7 +250,7 @@ INSERT INTO products (
  0, 0, 1, 36),
 
 (6, 2, 'Under Armour Curry Splash Pro Mesh Jersey', 'under-armour-curry-splash-pro-jersey', 'Under Armour', 'SK-BB-003', 'Apparel',
- 54.99, 69.99, 21, 4.60, 97,
+ 4499.00, 5699.00, 21, 4.60, 97,
  'S,M,L,XL,XXL', 'Black,Red,White', 'Black',
  'Heavyweight double-knit mesh basketball jersey engineered for zero cling during four-quarter battles. Features ribbed armholes, anti-odor finish, and side-hem split vents for unrestricted shooting motion.',
  '{"Material":"100% Textured Knit Polyester","Breathability":"Open-Hole Micro Mesh","Fit":"Loose Court Fit","Wicking":"UA Tech Fast-Dry Fibers","Care":"Machine Wash Cold, Line Dry"}',
@@ -260,7 +260,7 @@ INSERT INTO products (
 
 -- 3. FOOTBALL
 (7, 3, 'Nike Mercurial Superfly 9 Elite FG', 'nike-mercurial-superfly-9-elite-fg', 'Nike', 'SK-FB-001', 'Footwear',
- 219.99, 269.99, 19, 4.95, 412,
+ 18499.00, 22999.00, 20, 4.95, 412,
  'UK 6,UK 7,UK 8,UK 9,UK 10,UK 11', 'Orange,Black,White', 'Orange',
  'Instantly tilt the pitch with the Mercurial Superfly 9 Elite. Equipped with a football-specific 3/4-length Zoom Air unit seated directly in the soleplate and a Vaporposite+ grippy grid mesh upper for high-velocity ball control.',
  '{"Upper":"Vaporposite+ Grippy Chevron Mesh + Flyknit Collar","Soleplate":"3/4 Zoom Air Unit + Tri-Star FG Studs","Surface":"Firm Natural Grass (FG)","Weight":"192g (UK 9)","Insole":"Cushioned Anti-Slip Grip Liner"}',
@@ -269,7 +269,7 @@ INSERT INTO products (
  1, 1, 1, 22),
 
 (8, 3, 'Adidas Predator Accuracy.1 Low FG', 'adidas-predator-accuracy-1-low-fg', 'Adidas', 'SK-FB-002', 'Footwear',
- 174.99, 219.99, 20, 4.80, 275,
+ 14999.00, 18799.00, 20, 4.80, 275,
  'UK 7,UK 8,UK 9,UK 10,UK 11', 'Black,Red,White', 'Black',
  'Top-corner curl meets effortless first touch. The Predator Accuracy.1 packs High Definition Grip rubber elements across the strike zone of its soft HybridTouch upper, underpinned by a weighted Power Facet in the split outsole for ferocious ball striking.',
  '{"Upper":"HybridTouch Microfiber + HD Rubber Strike Fins","Outsole":"FacetFrame Split Tooling with Power Facet","Collar":"Two-Piece Primeknit Low Collar","Stud Config":"Firm Ground Bladed Studs","Weight":"215g"}',
@@ -278,7 +278,7 @@ INSERT INTO products (
  1, 0, 0, 30),
 
 (9, 3, 'Puma ULTRA Match Pro Training Kit', 'puma-ultra-match-pro-training-kit', 'Puma', 'SK-FB-003', 'Apparel',
- 59.99, 79.99, 25, 4.65, 138,
+ 4799.00, 6399.00, 25, 4.65, 138,
  'S,M,L,XL', 'Blue,Black,White', 'Blue',
  'Engineered for high-tempo pitch sessions, the ULTRA Match Pro Training Jersey & Short set uses ultra-lightweight jacquard fabric and underarm mesh gussets to keep core temperature regulated during 90-minute drills.',
  '{"Fabric":"100% Recycled Jacquard Knit","Fit":"Slim Pro Pitch Cut","Ventilation":"Laser-Cut Back & Underarm Panels","Moisture Control":"dryCELL Hydrophobic Finish","Includes":"Match Top + Zip-Pocket Training Shorts"}',
@@ -288,7 +288,7 @@ INSERT INTO products (
 
 -- 4. CRICKET
 (10, 4, 'Asics GEL-Peake 2 Pro Cricket Studs', 'asics-gel-peake-2-pro-cricket', 'Asics', 'SK-CR-001', 'Footwear',
- 109.99, 134.99, 19, 4.80, 192,
+ 8999.00, 10999.00, 18, 4.80, 192,
  'UK 7,UK 8,UK 9,UK 10,UK 11', 'White,Blue', 'White',
  'Developed with international cricketers for hard turf and synthetic wickets, the GEL-Peake 2 features synthetic leather overlays for midfoot lockdown, rearfoot GEL impact technology, and a dimpled rubber-cleat outsole for explosive crease sprints.',
  '{"Upper":"Seamless Synthetic Leather + Toe Bumper","Midsole":"Rearfoot GEL + Solyte Cushioning","Outsole":"Multi-Studded Hard Wicket Rubber","Support":"TRUSSTIC Midfoot Torsion Bridge","Discipline":"Batting / Fielding / All-Round"}',
@@ -297,7 +297,7 @@ INSERT INTO products (
  1, 0, 0, 40),
 
 (11, 4, 'Adidas 22YDS Boost Bowling Spikes', 'adidas-22yds-boost-bowling-spikes', 'Adidas', 'SK-CR-002', 'Footwear',
- 149.99, 184.99, 19, 4.85, 156,
+ 12499.00, 15499.00, 19, 4.85, 156,
  'UK 8,UK 9,UK 10,UK 11,UK 12', 'White,Orange', 'White',
  'Engineered specifically for fast bowlers hitting the delivery stride under extreme load. Combines full-length BOOST midsole cushioning with a bevelled heel, midfoot lockdown strap, and an 11-spike TPU plate.',
  '{"Upper":"Ripstop Mesh with TPU Ankle Lockdown Strap","Midsole":"Full-Length Responsive BOOST","Outsole":"11-Pin Removable Metal/TPU Spike Plate","Toe Guard":"Moulded Abrasion Shield","Discipline":"Fast & Medium Pace Bowling"}',
@@ -306,7 +306,7 @@ INSERT INTO products (
  0, 1, 1, 24),
 
 (12, 4, 'Puma evoSPEED Pro Test & ODI Match Shirt', 'puma-evospeed-pro-cricket-shirt', 'Puma', 'SK-CR-003', 'Apparel',
- 49.99, 64.99, 23, 4.70, 108,
+ 3999.00, 5199.00, 23, 4.70, 108,
  'S,M,L,XL,XXL', 'Blue,White', 'Blue',
  'Worn under blazing stadium lights, the evoSPEED Pro Cricket Shirt combines UV-50+ sun protection with articulated raglan sleeves and honeycomb mesh back panelling for unrestricted bowling and batting arcs.',
  '{"Fabric":"92% Polyester, 8% Elastane Honeycomb Knit","Protection":"UPF 50+ Solar Shield","Collar":"Concealed Snap-Button Polo Collar","Ventilation":"Full Mesh Spine Zone","Fit":"Ergonomic Cricketer Cut"}',
@@ -316,7 +316,7 @@ INSERT INTO products (
 
 -- 5. TENNIS
 (13, 5, 'NikeCourt Air Zoom Vapor Pro 2 Hard Court', 'nikecourt-air-zoom-vapor-pro-2-hc', 'Nike', 'SK-TN-001', 'Footwear',
- 129.99, 159.99, 19, 4.80, 231,
+ 10999.00, 13499.00, 19, 4.80, 231,
  'UK 6,UK 7,UK 8,UK 9,UK 10,UK 11', 'White,Black,Orange', 'White',
  'Built for interminable baseline rallies and lightning net approaches, the Vapor Pro 2 brings you lower to the court with a forefoot Air Zoom unit, full-length footframe for hard lateral brakes, and a data-informed herringbone outsole that grips without preventing slides.',
  '{"Upper":"Dual-Layer Reinforced Mesh + Inner Sleeve","Midsole":"Forefoot Zoom Air + Low-Profile Foam","Outsole":"Data-Informed Herringbone Hard-Court Rubber","Lateral Support":"Full-Length TPU Footframe","Surface":"Hard Court / All Court"}',
@@ -325,7 +325,7 @@ INSERT INTO products (
  1, 1, 0, 34),
 
 (14, 5, 'Asics Court FF 3 Novak Pro Edition', 'asics-court-ff-3-novak-pro', 'Asics', 'SK-TN-002', 'Footwear',
- 164.99, 194.99, 15, 4.95, 310,
+ 13999.00, 16499.00, 15, 4.95, 310,
  'UK 7,UK 8,UK 9,UK 10,UK 11', 'Blue,White,Orange', 'Blue',
  'Co-engineered with Novak Djokovic to maximize contact area on extreme sliding recoveries. Features a three-piece TWISTRUSS outsole, MONO-SOCK construction, and FlyteFoam + GEL cushioning for elite tournament endurance.',
  '{"Upper":"MONO-SOCK Fit System + PGuard Toe Shield","Midsole":"FLYTEFOAM + Forefoot/Rearfoot GEL","Outsole":"AHARPLUS 3-Piece Split Outsole","Stability":"TWISTRUSS 2-Piece Bridge","Surface":"All-Court Tournament"}',
@@ -334,7 +334,7 @@ INSERT INTO products (
  1, 0, 1, 19),
 
 (15, 5, 'Adidas Barricade Grand Slam Polo & Court Short', 'adidas-barricade-grand-slam-kit', 'Adidas', 'SK-TN-003', 'Apparel',
- 69.99, 89.99, 22, 4.70, 88,
+ 5699.00, 7299.00, 22, 4.70, 88,
  'S,M,L,XL', 'White,Black,Green', 'White',
  'Engineered with FreeLift shoulder construction so the hem never rides up during overhead serves and smashes. HEAT.RDY air-cooling yarns keep you composed during fifth-set tiebreaks.',
  '{"Technology":"Adidas HEAT.RDY + FreeLift Pattern","Fabric":"100% Parley Ocean Plastic Recycled Doubleknit","Pockets":"Deep Ball-Lock Pleated Pockets","Collar":"Bonded Low-Profile Blade Collar","Fit":"Slim Athletic Court Fit"}',
@@ -344,7 +344,7 @@ INSERT INTO products (
 
 -- 6. BADMINTON
 (16, 6, 'Yonex Power Cushion 65 Z3 Indoor Pro', 'yonex-power-cushion-65-z3-indoor', 'Yonex', 'SK-BD-001', 'Footwear',
- 134.99, 159.99, 16, 4.95, 376,
+ 11299.00, 13499.00, 16, 4.95, 376,
  'UK 6,UK 7,UK 8,UK 9,UK 10,UK 11', 'White,Orange,Black', 'White',
  'The gold standard of BWF World Tour badminton footwear. A seamless Double Russel Mesh upper pairs with Yonex Power Cushion+ (which rebounds a raw egg dropped from 12 meters without breaking) and a Radial Blade non-marking gum rubber sole.',
  '{"Upper":"Seamless Durable Skin Light + Double Russel Mesh","Midsole":"Power Cushion+ & Feather Bounce Foam","Outsole":"Radial Blade Non-Marking Natural Gum Rubber","Shank":"3D Power Graphite Sheet","Court Type":"Indoor PVC / Wooden Badminton Courts"}',
@@ -353,7 +353,7 @@ INSERT INTO products (
  1, 1, 0, 29),
 
 (17, 6, 'Asics GEL-Rocket 11 Indoor Gum Court', 'asics-gel-rocket-11-indoor-gum', 'Asics', 'SK-BD-002', 'Footwear',
- 84.99, 104.99, 19, 4.75, 249,
+ 6999.00, 8699.00, 20, 4.75, 249,
  'UK 6,UK 7,UK 8,UK 9,UK 10,UK 11', 'Black,Orange,White', 'Black',
  'Versatile indoor court shoe delivering rock-solid lateral stability and flexible forefoot pivot grooves for badminton and squash players. Features a TPU TRUSSTIC application in the midsole to resist over-twisting during lunges.',
  '{"Upper":"Breathable Open Mesh + Synthetic Overlays","Midsole":"EVA + Rearfoot GEL Cushioning Unit","Outsole":"Non-Marking Gum Rubber with Pivot Circle","Support":"Heel Wrap-Up Outrigger","Weight":"295g (UK 9)"}',
@@ -362,7 +362,7 @@ INSERT INTO products (
  0, 0, 1, 52),
 
 (18, 6, 'Yonex Tournament VeryCOOL Dry Jersey', 'yonex-tournament-verycool-dry-jersey', 'Yonex', 'SK-BD-003', 'Apparel',
- 44.99, 59.99, 25, 4.80, 143,
+ 3599.00, 4799.00, 25, 4.80, 143,
  'S,M,L,XL', 'Red,Black,Blue', 'Red',
  'Impregnated with Xylitol VeryCOOL technology that absorbs heat and perspiration to lower body surface temperature by 3°C during intense three-game badminton matches.',
  '{"Cooling Tech":"Yonex VeryCOOL Xylitol Fiber","Sleeve Cut":"Precision Move 165-Degree Arm Swing","Anti-Static":"Carbon-Impregnated Conductive Thread","Fabric":"100% Micro-Polyester","Fit":"Asian / Pro Tournament Fit"}',
@@ -372,7 +372,7 @@ INSERT INTO products (
 
 -- 7. GYM & TRAINING
 (19, 7, 'Nike Metcon 9 AMP Cross-Training Shoe', 'nike-metcon-9-amp-cross-training', 'Nike', 'SK-GYM-001', 'Footwear',
- 139.99, 169.99, 18, 4.90, 465,
+ 11799.00, 14299.00, 17, 4.90, 465,
  'UK 6,UK 7,UK 8,UK 9,UK 10,UK 11,UK 12', 'Black,Orange,Grey', 'Black',
  'The gold standard for heavy barbell squats, rope climbs, and high-intensity conditioning. A larger Hyperlift plate in the heel provides unshakeable stability under heavy loads, while dual-density React foam keeps box jumps and sprints responsive.',
  '{"Heel Stability":"Expanded Hyperlift Wedge Plate","Midsole":"Dual-Density Firm Outer / Soft Inner Foam","Sidewall":"Extended Rubber Rope-Wrap Arch Guard","Upper":"Haptic 3D Print Breathable Mesh","Heel-to-Toe Drop":"4 mm Flat Lifting Platform"}',
@@ -381,7 +381,7 @@ INSERT INTO products (
  1, 1, 1, 38),
 
 (20, 7, 'Under Armour Project Rock 6 BSR Trainer', 'under-armour-project-rock-6-bsr', 'Under Armour', 'SK-GYM-002', 'Footwear',
- 129.99, 159.99, 19, 4.80, 294,
+ 10999.00, 13499.00, 19, 4.80, 294,
  'UK 7,UK 8,UK 9,UK 10,UK 11', 'Grey,Black,Orange', 'Grey',
  'Built and tested by Dwayne Johnson for the hardest workers in the room. UA TriBase maximizes ground contact, promotes natural forefoot upward motion, and provides flexibility to grip the floor during deadlifts and sled pushes.',
  '{"Upper":"UA Clone Auxetic Upper Adapts to Foot Shape","Midsole":"UA HOVR Energy Return Cushioning","Outsole":"UA TriBase 3-Point Ground Contact","Heel":"External TPU Heel Clips for Squat Lock","Fit":"Snug Compression Collar"}',
@@ -390,7 +390,7 @@ INSERT INTO products (
  1, 0, 0, 31),
 
 (21, 7, 'Under Armour HeatGear Armour Pro Compression Set', 'under-armour-heatgear-compression-set', 'Under Armour', 'SK-GYM-003', 'Apparel',
- 59.99, 79.99, 25, 4.75, 211,
+ 4999.00, 6699.00, 25, 4.75, 211,
  'S,M,L,XL,XXL', 'Black,Grey', 'Black',
  'Second-skin compression top and 3/4 training legging combo designed to lock muscles in place, boost blood flow recovery, and prevent barbell abrasion during clean-and-jerk sessions.',
  '{"Fabric":"79% Polyester, 21% Elastane Super-Light HeatGear","Stitching":"Ergonomic Flatlock Seams Outside High-Abrasion Zones","Ventilation":"Stretch-Mesh Gusset & Back Panels","Fit":"Ultra-Tight Second-Skin Compression","Odor Control":"Anti-Microbial Finish"}',
@@ -400,7 +400,7 @@ INSERT INTO products (
 
 -- 8. HIKING
 (22, 8, 'Salomon Speedcross 6 GORE-TEX Trail Shoe', 'salomon-speedcross-6-gore-tex-trail', 'Salomon', 'SK-HK-001', 'Footwear',
- 154.99, 189.99, 18, 4.90, 388,
+ 12999.00, 15999.00, 19, 4.90, 388,
  'UK 7,UK 8,UK 9,UK 10,UK 11,UK 12', 'Green,Black,Orange', 'Green',
  'Lighter, grippier, and faster mud shedding than ever before. The Speedcross 6 GORE-TEX combines a waterproof breathable membrane with 5mm Mud Contagrip chevron lugs, SensiFit foot cradling, and Kevlar Quicklace one-pull tightening.',
  '{"Membrane":"GORE-TEX Waterproof & Breathable","Outsole":"Mud Contagrip with 5mm Deep Chevron Lugs","Lacing":"Kevlar Quicklace + Lace Pocket","Chassis":"EnergyCell+ High-Rebound Compound","Terrain":"Muddy, Technical & Loose Alpine Trails"}',
@@ -409,7 +409,7 @@ INSERT INTO products (
  1, 1, 0, 27),
 
 (23, 8, 'Adidas Terrex Free Hiker 2.0 GORE-TEX Boot', 'adidas-terrex-free-hiker-2-gore-tex', 'Adidas', 'SK-HK-002', 'Footwear',
- 179.99, 219.99, 18, 4.85, 260,
+ 15499.00, 18999.00, 18, 4.85, 260,
  'UK 7,UK 8,UK 9,UK 10,UK 11', 'Black,Green,Grey', 'Black',
  'Trail-runner comfort meets alpine boot protection. The Terrex Free Hiker 2.0 pairs a sock-like Primeknit collar and full-length BOOST midsole with an external EVA stability frame and Continental Rubber lugs that grip wet granite.',
  '{"Upper":"Abrasion-Resistant Ripstop + GORE-TEX Membrane","Midsole":"Full-Length BOOST + External EVA Stabilization Frame","Outsole":"Continental All-Terrain Lugged Rubber","Cut":"Mid-Cut Ankle Debris Collar","Weight":"445g (UK 9)"}',
@@ -418,7 +418,7 @@ INSERT INTO products (
  0, 0, 1, 21),
 
 (24, 8, 'Salomon Bonatti Trail Waterproof 2.5L Shell Jacket', 'salomon-bonatti-trail-waterproof-jacket', 'Salomon', 'SK-HK-003', 'Apparel',
- 144.99, 179.99, 19, 4.80, 149,
+ 11999.00, 14999.00, 20, 4.80, 149,
  'S,M,L,XL', 'Orange,Black,Green', 'Orange',
  'Ultralight Japanese Pertex Shield fabric delivers 20,000mm waterproof protection while packing down into its own chest pocket. Engineered with a smart back pleat so it can be worn seamlessly over a 12-liter trail hydration pack.',
  '{"Waterproof Rating":"20,000 mm / 20,000 g/m²/24h Breathability","Fabric":"2.5-Layer Pertex Shield Ripstop","Pack Compatibility":"Expandable Back Volume Over 12L Pack","Weight":"195g","Features":"Scuba Storm Hood + Waterproof AquaGuard Zip"}',
@@ -438,9 +438,10 @@ INSERT INTO orders (
     1, 'SK-2026-84920', 1, 'Aarav Sharma', 'athlete@sportkick.com', '+91 98765 43210',
     '42 Olympic Residency, Indiranagar', 'Bengaluru', 'Karnataka', '560038',
     'Credit / Debit Card', 'Paid', 'Delivered',
-    329.98, 0.00, 0.00, 329.98
+    27798.00, 0.00, 0.00, 27798.00
 );
 
 INSERT INTO order_items (order_id, product_id, product_name, brand, size, color, unit_price, quantity, line_total) VALUES
-(1, 1, 'Nike Air Zoom Alphafly Next% 3 Proto', 'Nike', 'UK 9', 'Orange', 189.99, 1, 189.99),
-(1, 19, 'Nike Metcon 9 AMP Cross-Training Shoe', 'Nike', 'UK 9', 'Black', 139.99, 1, 139.99);
+(1, 1, 'Nike Air Zoom Alphafly Next% 3 Proto', 'Nike', 'UK 9', 'Orange', 15999.00, 1, 15999.00),
+(1, 19, 'Nike Metcon 9 AMP Cross-Training Shoe', 'Nike', 'UK 9', 'Black', 11799.00, 1, 11799.00);
+

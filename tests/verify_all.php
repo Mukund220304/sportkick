@@ -67,14 +67,14 @@ assertTest('Filter by Brand ("Adidas")', count($filterBrand) >= 4, 'Matched ' . 
 $filterCat = queryProducts($pdo, ['category' => 'badminton']);
 assertTest('Filter by Sport Category ("badminton")', count($filterCat) === 3, 'Matched ' . count($filterCat) . ' Badminton products');
 
-$filterPrice = queryProducts($pdo, ['min_price' => 100, 'max_price' => 160]);
+$filterPrice = queryProducts($pdo, ['min_price' => 8000, 'max_price' => 14000]);
 $priceOk = !empty($filterPrice);
 foreach ($filterPrice as $fp) {
-    if ((float)$fp['price'] < 100 || (float)$fp['price'] > 160) {
+    if ((float)$fp['price'] < 8000 || (float)$fp['price'] > 14000) {
         $priceOk = false;
     }
 }
-assertTest('Filter by Price Range ($100 - $160)', $priceOk, 'Matched ' . count($filterPrice) . ' products within range');
+assertTest('Filter by Price Range (₹8,000 - ₹14,000)', $priceOk, 'Matched ' . count($filterPrice) . ' products within range');
 
 $filterSize = queryProducts($pdo, ['size' => 'UK 9']);
 assertTest('Filter by Size ("UK 9")', count($filterSize) >= 10, 'Matched ' . count($filterSize) . ' products in UK 9');
@@ -115,8 +115,8 @@ $_SESSION['promo_code'] = 'KICK10';
 $cartDetails = getCartDetails($pdo);
 assertTest(
     'Shopping Cart Add, Quantity & Promo Calculation',
-    $cartDetails['item_count'] === 2 && $cartDetails['subtotal'] > 300 && $cartDetails['promo_discount'] > 30,
-    sprintf('Subtotal: $%.2f, Promo: -$%.2f, Total: $%.2f', $cartDetails['subtotal'], $cartDetails['promo_discount'], $cartDetails['total_amount'])
+    $cartDetails['item_count'] === 2 && $cartDetails['subtotal'] > 25000 && $cartDetails['promo_discount'] > 2500,
+    sprintf('Subtotal: ₹%.2f, Promo: -₹%.2f, Total: ₹%.2f', $cartDetails['subtotal'], $cartDetails['promo_discount'], $cartDetails['total_amount'])
 );
 
 // 7. Verify Wishlist Operations
@@ -187,3 +187,4 @@ echo sprintf(" TOTAL: %d Passed, %d Failed\n", $passed, $failed);
 echo "-----------------------------------------------------------------\n";
 
 exit($failed > 0 ? 1 : 0);
+

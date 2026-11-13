@@ -147,3 +147,4 @@ if ($action === 'move_to_cart') {
 
 http_response_code(400);
 echo json_encode(['success' => false, 'message' => 'Unsupported wishlist action.']);
+
